@@ -1,0 +1,57 @@
+.logo {
+    width: 140px;
+    cursor: pointer;
+   float: left;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.frame {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 650px;
+    height: 500px;
+    text-align: center;
+}
+.box1{
+    background-color: #f9fafbec;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.501);
+    width: 90%;
+    height: 40%;
+    border-radius: 5%;
+    margin-right: 90px;
+    margin-left: 10px;
+  
+}
+.box1 img {
+    width: 40px;
+    height: 40px;
+    border: #0b0b0b;
+    
+}
+.frame  a {
+    display: block;
+    color: rgb(11, 229, 26);
+    text-decoration:none;
+    font-size: small;
+    font-weight: bolder;
+    
+  }
+  
+  .frame  a:hover {
+    background-color: #6ce44b25;
+ 
+  }
+  .frame h1{
+    color: green;
+    font-weight: bolder;
+  }

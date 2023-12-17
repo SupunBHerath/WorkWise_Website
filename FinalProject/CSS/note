@@ -1,0 +1,68 @@
+Dedicated online space for those who want to make smart decisions about your work life.
+
+
+.content {
+
+    margin-left: 5%;
+    margin-right: 5%;
+    background-image: linear-gradient(to right, #5AC8C8, #7CC87C);
+    border-radius: 50px;
+    background-color: rgb(157, 243, 138);
+    justify-content: space-between;
+   
+}
+
+.content p {
+    flex: 1;
+    width: 70%;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 75px;
+    text-align: center;
+   color: #07180e;
+   
+}
+
+#himge {
+    float: right;
+    margin-right: 2%;
+    margin-top: 2%;
+    border-radius: 50%;
+    width: 30%;
+   
+
+}
+.content p span{
+    color: red;
+}
+.signbtn{
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    background: #dc0404;
+    color: #fff;
+    font-weight: 1000;
+    font-size: medium;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+   
+   
+}
+
+.loginbtn {
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    border: 0;
+    outline: 0;
+    border-radius: 50px;
+    background: #51f45c;
+    color: #fff;
+    font-weight: 1000;
+    font-size: medium;
+    cursor: pointer;
+}
