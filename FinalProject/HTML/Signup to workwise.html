@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,9 +21,9 @@
             background-color: #fff;
             padding: 20px;
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);        
-            height: 300px;
-            width: 400px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+            height: 400px;
+            width: 330px;
         }
 
         label {
@@ -38,54 +39,72 @@
             border-radius: 8px;
             cursor: pointer;
             height: 10%;
-           
-            
+
+
         }
-        #FL{
-           
-            width: 130px;
-            height:100px ;
-            font-size: large;
+
+        .FL a {
+            background-color: #f6f3f3;
+            cursor: pointer;
+            display: block;
+            color: rgb(6, 230, 55);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: medium;
             font-weight: bolder;
+            border-radius: 50px;
+            border-color: rgb(11, 11, 11);
+            border-style: ridge;
         }
-        #Cl{
-            
-            width: 130px;
-            height:100px ;
-            font-size: large;
-            font-weight: bolder;
-        }
-        .divtag1{
+
+        .divtag1 {
             align-items: center;
-           
+
         }
-        #L1{
+
+        .FL a:hover {
+            background-color: #3cfc08;
+            color: #fff;
+
+        }
+
+        #L1 {
             font-size: 10px;
+        }
+
+        .logo {
+            width: 110px;
+            cursor: pointer;
+            float: left;
         }
     </style>
 </head>
+
 <body>
 
     <form method="post">
         <div class="divtag1">
+            <a href="/HTML/Home.html"> <img src="../Image/logo/logo1.png" alt="logo" class="logo"></a>
+            <br><br>
             <center>
-            <h2>Signup to WorkWise</h2>
-            <br>
-            <br>
-            <br>
-            <button type="submit" id="FL">Freelancer</button>
-            <button type="submit" id="Cl">Clint</button>
-            <br>
-            <br>
-            <br>
-            <br>
-           
-            
-            <label id="L1">Already have an account?<a href> Log In</a></label>
+                <h2>Sign up to WorkWise</h2>
+                <br>
+                <div class="FL">
+                    <a href="../HTML/Signup as a Freelancer.html">Freelancer</a>
+                    <h4>or</h4>
+
+                    <a href="../HTML/Signup as a Clint.html" class="CL">Clinte</a>
+                    <br><br>
+                </div>
+                <h5 style="color: red;"> -- Already have WorkWise an account ? <a href="../HTML/Login.html" style="border: 0; ">Login</a>
+                    <br><br></h5><br>
+
             </center>
         </div>
-       
+
     </form>
 
 </body>
+
 </html>
