@@ -26,7 +26,7 @@ body {
     background-color: #f9fafbec;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.501);
     width: 90%;
-    height: 40%;
+    height: 60px;
     border-radius: 5%;
     margin-right: 90px;
     margin-left: 10px;
@@ -35,12 +35,12 @@ body {
 .box1 img {
     width: 40px;
     height: 40px;
-    border: #0b0b0b;
+  
     
 }
 .frame  a {
     display: block;
-    color: rgb(11, 229, 26);
+    color: rgb(75, 213, 84);
     text-decoration:none;
     font-size: small;
     font-weight: bolder;
@@ -55,3 +55,6 @@ body {
     color: green;
     font-weight: bolder;
   }
+.frame tr {
+  width: 150px;
+}

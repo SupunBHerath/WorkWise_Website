@@ -1,127 +1,142 @@
 .logo {
-    width: 160px;
-    cursor: pointer;
-   
-}
-.topdiv{
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-    background-color: #fff;
+  width: 160px;
+  cursor: pointer;
 
 }
-.topdiv ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #23396f;
-    border-radius: 10px;
-    
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: medium;
-    font-weight: bolder;
-    border-radius: 10px;
-    margin-right: 20px;
-  }
-  
-  .topdiv li a:hover {
-    background-color: #6ce44b25;
-  }
-  .singup{
-    color: rgb(235, 235, 241);
-    background-color: rgb(230, 96, 19);
-    border-radius: 10px;
-    margin-right: 0px;
-  }
 
-  .login{
-   color: rgb(236, 240, 236);
-   font-size: large;
-  
-  }
+.menu {
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #23396f;
+  border-radius: 0px;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: medium;
+  font-weight: bolder;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.menu li a:hover {
+  background-color: #6ce44b25;
+}
+
+.singup {
+  color: rgb(235, 235, 241);
+  background-color: rgb(230, 96, 19);
+  border-radius: 10px;
+  margin-right: 0px;
+}
+
+.login {
+  color: rgb(236, 240, 236);
+  font-size: large;
+
+}
 
 .welcome h1 {
-    font-size: 45px;
-    color: green;
+  font-size: 450%;
+  color: green;
+  font-weight: bolder;
+  
 }
 
 .content {
-   /* background-color: #4d4a38; */
-    margin-left: 5%;
-    margin-right: 5%;
-   background-image: linear-gradient(rgba(31, 111, 172, 0.2),rgba(1, 111, 172, 0.2)) ;
-   border-radius: 20px;
-   background-repeat: no-repeat;
-   max-width: 100%;
- 
-   
-   
+  /* background-color: #4d4a38; */
+  margin-left: 10%;
+  margin-right: 10%;
+  background-image: linear-gradient(rgba(255,255,255,0.7), rgba(255, 255, 255, 0.7)),url(../Image/SD.jpg);
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 
-   
+
+
+
+
 }
+
 .content p {
-    
+
   text-align: center;
-   font-size: 230%;
-   font-weight: bolder;
-   color: #211b43;
+  font-size: 300%;
+  font-weight: bolder;
+  color: #211b43;
 }
 
 #himge {
   display: block;
-   margin-left: auto;
-   margin-right: auto;
-    max-width:15%;
-    max-height:15%;
-   
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 15%;
+  max-height: 15%;
+
 
 }
-.content p span{
-    color: red;
+
+.content p span {
+  color: red;
 }
-.signbtn{
-    display: flex;
-    align-items: center;
-    padding: 10px 30px;
-    border: 0;
-    outline: 0;
-    border-radius: 10px;
-    background: #dc0404;
-    color: #fff;
-    font-weight: 1000;
-    font-size: medium;
-    cursor: pointer;
-    margin-left: auto;
-    margin-right: auto;
-   
-   
+
+.signbtn {
+  display: flex;
+  align-items: center;
+  padding: 10px 30px;
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+  background: #dc0404;
+  color: #fff;
+  font-weight: 1000;
+  font-size: medium;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+
+
 }
+
 /* footer style */
-.fooder{
+.fooder {
   background-color: #090909bd;
   border-radius: 10px;
-  
+
   margin: 0;
   padding: 0;
 }
+
 .fooder ul {
-  
+
   list-style-type: none;
   overflow: hidden;
-  
+
 }
+
 .fooder li a {
   display: block;
   color: white;
@@ -134,10 +149,9 @@
   margin-right: 20px;
 }
 
-.fooder li a:hover {
+.fooder li a:hover {}
 
-}
-.followid{
+.followid {
   display: block;
   color: rgb(245, 9, 9);
   text-align: center;
