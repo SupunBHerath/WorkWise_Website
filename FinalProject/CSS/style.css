@@ -5,11 +5,12 @@
 }
 
 .menu {
-  position: -webkit-sticky;
+  /* position: -webkit-sticky; */
   /* Safari */
-  position: sticky;
+  position: fixed;
   top: 0;
   background-color: #fff;
+  width: 100%;
 
 }
 
@@ -60,21 +61,21 @@ li a {
   font-size: 450%;
   color: green;
   font-weight: bolder;
-  
+
 }
 
 .content {
   /* background-color: #4d4a38; */
   margin-left: 10%;
   margin-right: 10%;
-  background-image: linear-gradient(rgba(255,255,255,0.7), rgba(255, 255, 255, 0.7)),url(../Image/SD.jpg);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../Image/SD.jpg);
   border-radius: 20px;
   background-repeat: no-repeat;
   max-width: 100%;
   background-size: cover;
   background-position: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-
+  margin-top: 150px;
 
 
 
@@ -120,37 +121,11 @@ li a {
 
 
 }
-
-/* footer style */
-.fooder {
-  background-color: #090909bd;
-  border-radius: 10px;
-
-  margin: 0;
-  padding: 0;
+.signbtn a{
+ display: block;
+ color: #fff;
+ text-decoration: none;
 }
-
-.fooder ul {
-
-  list-style-type: none;
-  overflow: hidden;
-
-}
-
-.fooder li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: medium;
-  font-weight: bolder;
-  border-radius: 10px;
-  margin-right: 20px;
-}
-
-.fooder li a:hover {}
-
 .followid {
   display: block;
   color: rgb(245, 9, 9);
@@ -193,3 +168,23 @@ body {
   margin-right: 10px;
   float: left;
 }
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 0px;
+  width: 100%;
+}
+
+footer a {
+  display: block;
+  color: rgb(250, 247, 247);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: small;
+  font-weight: bolder;
+ 
+}
+
